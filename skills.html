@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skills | Ashwini Chegaraddi</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #6366f1, #a855f7, #ec4899);
+      color: white;
+      overflow-x: hidden;
+      animation: fadeIn 1.2s ease-in-out;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      font-size: 2.8em;
+      margin-bottom: 0.3em;
+    }
+
+    header p {
+      font-size: 1.1em;
+      color: #f3f4f6;
+    }
+
+    .skills-container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .skill {
+      margin-bottom: 30px;
+    }
+
+    .skill h2 {
+      font-size: 1.3em;
+      margin-bottom: 10px;
+      color: #ffeb3b;
+    }
+
+    .progress-bar {
+      width: 100%;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 20px;
+      overflow: hidden;
+      height: 25px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .progress {
+      height: 100%;
+      width: 0%;
+      background: #facc15;
+      border-radius: 20px;
+      line-height: 25px;
+      color: #000;
+      font-weight: bold;
+      text-align: right;
+      padding-right: 10px;
+      box-sizing: border-box;
+      transition: width 2s ease-in-out;
+    }
+
+    .buttons {
+      text-align: center;
+      margin: 50px 0;
+    }
+
+    .btn {
+      background: white;
+      color: #4f46e5;
+      border: none;
+      padding: 14px 35px;
+      border-radius: 30px;
+      font-size: 1.1em;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.4s;
+      text-decoration: none;
+      margin: 10px;
+      display: inline-block;
+    }
+
+    .btn:hover {
+      background: #312e81;
+      color: white;
+      transform: scale(1.1);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Skills</h1>
+    <p>Here’s a showcase of my technical and creative expertise.</p>
+  </header>
+
+  <div class="skills-container">
+
+    <div class="skill">
+      <h2>HTML5 & CSS3</h2>
+      <div class="progress-bar">
+        <div class="progress" style="width: 95%;">95%</div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <h2>JavaScript & React.js</h2>
+      <div class="progress-bar">
+        <div class="progress" style="width: 90%;">90%</div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <h2>Python & Machine Learning</h2>
+      <div class="progress-bar">
+        <div class="progress" style="width: 88%;">88%</div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <h2>Firebase & SQL</h2>
+      <div class="progress-bar">
+        <div class="progress" style="width: 85%;">85%</div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <h2>Adobe Illustrator & Photoshop</h2>
+      <div class="progress-bar">
+        <div class="progress" style="width: 80%;">80%</div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <h2>Video Editing & Content Creation</h2>
+      <div class="progress-bar">
+        <div class="progress" style="width: 75%;">75%</div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="buttons">
+    <a href="experience.html" class="btn">⬅ Back to Experience</a>
+    <a href="ashwini-portfolio.html" class="btn">🏠 Home</a>
+  </div>
+
+</body>
+</html>

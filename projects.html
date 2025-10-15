@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Ashwini Chegaraddi</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #6366f1, #a855f7, #ec4899);
+      color: white;
+      overflow-x: hidden;
+      animation: fadeIn 1.2s ease-in-out;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      font-size: 2.8em;
+      margin-bottom: 0.3em;
+    }
+
+    header p {
+      font-size: 1.1em;
+      color: #f3f4f6;
+    }
+
+    .projects-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .project-card {
+      background: rgba(255, 255, 255, 0.12);
+      border-radius: 20px;
+      padding: 25px;
+      text-align: left;
+      box-shadow: 0 4px 25px rgba(0, 0, 0, 0.2);
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .project-card:hover {
+      transform: translateY(-10px);
+      background: rgba(255, 255, 255, 0.18);
+    }
+
+    .project-card h2 {
+      color: #ffeb3b;
+      margin-bottom: 10px;
+    }
+
+    .project-card p {
+      font-size: 0.95em;
+      color: #f3f4f6;
+      margin-bottom: 10px;
+    }
+
+    .project-card .tech {
+      font-size: 0.9em;
+      color: #ffe082;
+      margin-bottom: 5px;
+    }
+
+    .buttons {
+      text-align: center;
+      margin: 50px 0;
+    }
+
+    .btn {
+      background: white;
+      color: #4f46e5;
+      border: none;
+      padding: 14px 35px;
+      border-radius: 30px;
+      font-size: 1.1em;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.4s;
+      text-decoration: none;
+      margin: 10px;
+      display: inline-block;
+    }
+
+    .btn:hover {
+      background: #312e81;
+      color: white;
+      transform: scale(1.1);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Projects</h1>
+    <p>Here are some of the key projects I’ve built — showcasing my creativity, logic, and design skills.</p>
+  </header>
+
+  <div class="projects-container">
+
+    <div class="project-card">
+      <h2>Loan Default Prediction System (MSc Research Project)</h2>
+      <p>Developed a machine learning model using Python, TensorFlow, and scikit-learn to predict credit risk from 255k+ UK borrower records.</p>
+      <p>Achieved <strong>90.78% accuracy</strong> and 0.958 AUC using ensemble stacking and Explainable AI tools (SHAP & LIME).</p>
+      <p class="tech">Technologies: Python, TensorFlow, scikit-learn, SHAP, LIME</p>
+    </div>
+
+    <div class="project-card">
+      <h2>Lost and Found Mobile App</h2>
+      <p>Developed an Android app that allows users to report and recover lost items using geolocation and real-time database storage.</p>
+      <p class="tech">Technologies: Java, XML, Firebase</p>
+    </div>
+
+    <div class="project-card">
+      <h2>Event Booking Web Application</h2>
+      <p>Created an event platform with search and filtering capabilities integrated with weather and location APIs for event planning.</p>
+      <p class="tech">Technologies: HTML5, CSS3, JavaScript, Firebase</p>
+    </div>
+
+    <div class="project-card">
+      <h2>Machine Learning Prediction Model</h2>
+      <p>Built a prediction model achieving 82% accuracy using Logistic Regression and compared it with Naïve Bayes, KNN, LDA, and SVM.</p>
+      <p class="tech">Technologies: Python, scikit-learn</p>
+    </div>
+
+    <div class="project-card">
+      <h2>Terrioest Network Prediction (B.E. Final Year)</h2>
+      <p>Developed a neural network-based system to identify and predict suspicious communication patterns in online networks.</p>
+      <p class="tech">Technologies: Python, TensorFlow, Neural Networks</p>
+    </div>
+
+  </div>
+
+  <div class="buttons">
+    <a href="about.html" class="btn">⬅ Back to About Me</a>
+    <a href="ashwini-portfolio.html" class="btn">🏠 Home</a>
+  </div>
+
+</body>
+</html>
